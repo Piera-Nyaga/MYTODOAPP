@@ -1,0 +1,107 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #5f4b8bff; 
+}
+
+h1, h2{
+    text-align: center;
+    color: #00203fff;
+}
+h4{
+    text-align: center;
+}
+.todo-card{
+    flex-wrap: wrap;
+    gap: 10px;
+    box-shadow: 0 4px 8px 0 #5f4b8bff
+    
+}
+
+.complete{
+display: flex;
+flex-direction: row;
+gap:10px;
+}
+
+.to-do-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    height: 600px;
+    gap: 50px;
+    background-color: #5f4b8bff;
+    border-radius: 50px;
+}
+
+.other{
+    display: flex;
+    flex-direction: column;
+
+}
+#todoform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: #e69a8dff;
+    height: 450px;
+    padding: 35px;
+    border-radius: 10px;
+    width: 450px;
+    box-shadow: 0 4px 8px 0 #e69a8dff;
+    
+}
+
+input{
+    
+    height: 70px;
+    width: 300px;
+    border-radius: 5px;
+}
+label{
+    font-size: 20px;
+    font: bold;
+}
+ button{
+    height: 50px;
+    width: 80px;
+    border-radius: 5px;
+ }
+
+
+.to-do{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 6px;
+
+}
+.todo{
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid black; 
+
+}
+#edit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #e69a8dff
+    
+
+}
+

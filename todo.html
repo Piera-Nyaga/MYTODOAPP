@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./todo.css">
+    <title>To do </title>
+</head>
+
+<body>
+
+    <h1>MY TO-DO APP</h1>
+
+    <div class="container">
+        
+        
+
+
+
+        <div class="to-do-form">
+
+            <form method="POST" id="todoform">
+                <div class="input-group">
+                    <label for="titleid">Title</label> <br>
+                    <input type="text" name="title" id="titleid" placeholder="Title" required>
+                </div>
+                <div class="input-group">
+                    <label for="describeid">Description</label> <br>
+                    <input type="text" name="description" id="describeid" placeholder="Description" required>
+                </div>
+                <div class="input-group">
+                    <label for="dateid">Date Due</label> <br>
+                    <input type="date" class="date" name="date" id="dateid" placeholder="Date" required>
+                </div>
+
+                <button type="submit">Add Task</button>
+            </form>
+            <div class="other">
+                <h2>You have no tasks </h2>
+                <br>
+            <button type="submit" id="delete">Delete All</button>
+            
+        </div>
+        </div>
+        
+        
+        <div class="to-do">
+            <div class="todo-card">
+
+            </div>
+        </div>
+
+        <br>
+
+        <div class="edit">
+
+            <form method="POST" id="edit" style="display: none;">
+                <h5>ADD YOUR TASKS</h5>
+                <div class="input-group">
+                    <label for="title">Title</label> <br>
+                    <input type="text" name="title" id="titleid" placeholder="Title" required>
+                </div>
+                <div class="input-group">
+                    <label for="description">Description</label> <br>
+                    <input type="text" name="description" id="describeid" placeholder="Description" required>
+                </div>
+                <div class="input-group">
+                    <label for="date">Date Due</label> <br>
+                    <input type="date" class="date" name="date" id="dateid" placeholder="Date" required>
+                </div>
+                <div class="input-group">
+                    <input type="id" name="id" hidden>
+                </div>
+
+                <button type="submit">Save</button>
+            </form>
+        </div>
+
+    
+        <div class="">
+            <h4>NO COMPLETED TASKS</h4>
+            <div class="complete">
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./todo.js" defer></script>
+
+</body>
+
+</html>
